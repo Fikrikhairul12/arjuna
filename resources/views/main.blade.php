@@ -1,3 +1,3 @@
 @include('navbar.header')
-@include('dashboard')
+@include('public.dashboard')
 @include('navbar.footer')

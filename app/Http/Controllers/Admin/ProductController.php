@@ -11,7 +11,7 @@ class ProductController extends Controller
 {
     public function index()
     {
-        return view('admin.dashboard');
+        return view('pages.admin.dashboard');
     }
 
     public function store(Request $request)

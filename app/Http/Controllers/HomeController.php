@@ -9,6 +9,6 @@ class HomeController extends Controller
     public function index()
     {
         $products = Product::latest()->get();
-        return view('main', compact('products'));
+        return view('pages.dashboard', compact('products'));
     }
 }

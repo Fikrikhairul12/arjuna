@@ -13,12 +13,12 @@
             <div class="w-full px-4 mb-12 lg:w-1/2">
                 <h3 class="font-semibold text-xl text-white mb-5">Tautan</h3>
                 <ul class="text-slate-300">
-                    <li><a href="#home" class="inline-block text-base hover:text-primary mb-3">Beranda</a></li>
-                    <li><a href="#menu" class="inline-block text-base hover:text-primary mb-3">Produk</a>
+                    <li><a href="/" class="inline-block text-base hover:text-primary mb-3">Beranda</a></li>
+                    {{-- <li><a href="#menu" class="inline-block text-base hover:text-primary mb-3">Produk</a>
+                    </li> --}}
+                    <li><a href="/tentang" class="inline-block text-base hover:text-primary mb-3">Tentang Kami</a>
                     </li>
-                    <li><a href="#about" class="inline-block text-base hover:text-primary mb-3">Tentang Kami</a>
-                    </li>
-                    <li><a href="#contact" class="inline-block text-base hover:text-primary mb-3">Kontak Kami</a></li>
+                    <li><a href="/kontak" class="inline-block text-base hover:text-primary mb-3">Kontak</a></li>
                 </ul>
             </div>
         </div>
@@ -45,5 +45,4 @@
     </div>
 </footer>
 <!-- footer end -->
-</body>
-</html>
+

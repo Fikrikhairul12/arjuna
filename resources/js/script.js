@@ -79,3 +79,47 @@ window.decreaseQty = function () {
         document.getElementById('qty').innerText = qty;
     }
 }
+
+window.openLogin = function() {
+    const modal = document.getElementById('loginModal');
+
+    modal.classList.add('flex');
+    modal.classList.remove('hidden');
+}
+
+window.closeLogin = function() {
+    const modal = document.getElementById('loginModal');
+
+    modal.classList.add('hidden');
+    modal.classList.remove('flex');
+}
+
+window.addEventListener('click', function (e) {
+    const modal = document.getElementById('loginModal');
+
+    if (e.target === modal) {
+        closeLogin();
+    }
+});
+
+window.openRegister = function() {
+    const modal = document.getElementById('registerModal');
+
+    modal.classList.remove('hidden');
+    modal.classList.add('flex');
+}
+
+window.closeRegister = function() {
+    const modal = document.getElementById('registerModal');
+
+    modal.classList.add('hidden');
+    modal.classList.remove('flex');
+}
+
+window.addEventListener('click', function (e) {
+    const modal = document.getElementById('registerModal');
+
+    if (e.target === modal) {
+        closeRegister();
+    }
+});
